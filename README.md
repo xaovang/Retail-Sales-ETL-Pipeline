@@ -32,6 +32,8 @@ This project uses a normalized relational database schema to support analytical 
 - Products (1) ──── (∞) Order_Items
 
 
+
+
 ## ETL Plan
 
 ### Extract
