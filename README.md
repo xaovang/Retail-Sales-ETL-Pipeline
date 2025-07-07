@@ -27,7 +27,7 @@ This project uses a normalized relational database schema to support analytical 
 - `line_total` (FLOAT) *(quantity × unit_price)*
 
 ### Entity-Relationship Diagram
-Customers (1) ──── (∞) Orders
-Orders (1) ──── (∞) Order_Items
-Products (1) ──── (∞) Order_Items
+- Customers (1) ──── (∞) Orders
+- Orders (1) ──── (∞) Order_Items
+- Products (1) ──── (∞) Order_Items
 
