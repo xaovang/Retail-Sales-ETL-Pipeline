@@ -1,5 +1,37 @@
 # Retail-Sales-ETL-Pipeline
 
+
+# Online Retail II ETL Project
+
+This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline for the **Online Retail II** dataset.
+
+**Goal:**  
+Convert messy raw sales transaction data into a **clean, normalized relational schema** suitable for analysis and reporting.
+
+---
+
+## Features
+- Reads large CSV (~1 million rows) with pandas.
+- Cleans and transforms raw sales data into 4 normalized tables.
+- Loads data into a MySQL database using SQLAlchemy.
+- Production-style code with logging and modular ETL functions.
+
+---
+
+## Dataset
+**Source:** [UCI Online Retail II] (https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci?resource=download)
+
+**Fields in CSV:**  
+- Invoice
+- StockCode
+- Description
+- Quantity
+- InvoiceDate
+- Price
+- Customer ID
+- Country
+
+
 ## Database Schema
 
 This project uses a normalized relational database schema to support analytical queries. Below are the four main tables and their columns:
