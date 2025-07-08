@@ -47,7 +47,16 @@ This project uses a normalized relational database schema to support analytical 
 
 
 ### Transform
-- Placeholder for now
+
+- Drop rows with missing Customer ID.
+- Ensure Customer ID is integer type.
+- Remove duplicates in Customers and Products tables.
+- Compute line_total = Quantity * Price for Order_Items.
+- Split cleaned data into four separate DataFrames:
+  - Customers
+  - Products
+  - Orders
+  - Order_Items
 
 ### Load
 - Placeholder for now
