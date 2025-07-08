@@ -59,4 +59,10 @@ This project uses a normalized relational database schema to support analytical 
   - Order_Items
 
 ### Load
-- Placeholder for now
+- Loads cleaned data into MySQL database named `retail_db`.
+- Creates four normalized tables:
+  - customers
+  - products
+  - orders
+  - order_items
+- Uses SQLAlchemy and mysql-connector to connect and write data.
