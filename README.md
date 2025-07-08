@@ -37,7 +37,7 @@ This project uses a normalized relational database schema to support analytical 
 ## ETL Plan
 
 ### Extract
-- **Source**: Single CSV file containing approximately 1 million (1,048,576) retail transaction records from the Online Retail II dataset.
+- **Source**: Single CSV file containing over 1 million retail transaction records from the Online Retail II dataset.
 - **Tool**: Use pandas to read the CSV data into a DataFrame.
 - **Function**: pandas.read_csv() with parse_dates=['InvoiceDate'] to correctly parse dates on load.
 - **Options**:
