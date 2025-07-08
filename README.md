@@ -1,7 +1,4 @@
-# Retail-Sales-ETL-Pipeline
-
-
-# Online Retail II ETL Project
+# Online-Retail-Sales-ETL-Pipeline
 
 This project demonstrates an end-to-end ETL (Extract, Transform, Load) pipeline for the **Online Retail II** dataset.
 
