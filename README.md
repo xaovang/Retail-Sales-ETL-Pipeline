@@ -28,6 +28,9 @@ Convert messy raw sales transaction data into a **clean, normalized relational s
 - Customer ID
 - Country
 
+## Python Code File Name
+- etl_pipeline.py
+
 
 ## Database Schema
 
